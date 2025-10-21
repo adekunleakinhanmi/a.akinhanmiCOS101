@@ -14,23 +14,23 @@ fn main() {
 
     if xp== true  && age>=40
     {
-        println!("Congratulations! You are entitled to an incentive of 1,560,000 per month");
+        println!("Congratulations! You are entitled to an incentive of 1,560,000 per month.");
     }
     else if xp== true && age<40 && age>=30
     {
-        println!("Congratulations! You are entitled to an incentive of 1,480,000 per month");
+        println!("Congratulations! You are entitled to an incentive of 1,480,000 per month.");
     }
     else if xp== true && age<28
     {
-        println!("Congratulations! You are entitled to an incentive of 1,300,000 per month" );
+        println!("Congratulations! You are entitled to an incentive of 1,300,000 per month." );
     }
     else if xp== false 
     {
-        println!("You are entitled to an incentive of 100,000 per month");
+        println!("You are entitled to an incentive of 100,000 per month.");
     }
     else
     {
-        println!("Sorry, you are not eligible for an incentive");
+        println!("Sorry, you are not eligible for an incentive.");
     }
 
 }
