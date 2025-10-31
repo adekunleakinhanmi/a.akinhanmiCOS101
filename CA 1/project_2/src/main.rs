@@ -24,11 +24,11 @@ fn main() {
         println!("Enter the Time to 1d.p: ");
         let mut input3 = String::new();
         io::stdin().read_line(&mut input3).expect("Not a valid string");
-        let t:f32 = input1.trim().parse().expect("Not a valid number");
+        let t:f32 = input3.trim().parse().expect("Not a valid number");
 
 
         let a:f32= p*(1.0+(r/100.0)).powf(t);
-        let ci:f32= a-p;
+        let ci= a-p;
 
 
         println!("The compound interest is {}",ci);
