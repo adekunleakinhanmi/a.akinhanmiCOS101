@@ -1,10 +1,10 @@
 use std::io;
 
 fn main() {
-    let mut name= String::new();
-    let mut input2= String::new();
-    let mut input3= String::new();
-    let mut input4= String::new();
+    let mut name   = String::new();
+    let mut input2 = String::new();
+    let mut input3 = String::new();
+    let mut input4 = String::new();
 
     println!("Enter your name:");
     io::stdin().read_line(&mut name).expect("Not a valid string");
