@@ -8,7 +8,7 @@ fn main() {
         println!("E = Eba & Egusi Soup                 -N2,000");
         println!("W = White Rice & Stew                -N2,500\n");
 
-        println!("Place your order or enter n to quit: ");
+        println!("Place your order or enter n to quit: "); 
         let mut input1 = String::new();
         io::stdin().read_line(&mut input1).expect("Not a valid string");
         let menu:char = input1.trim().to_uppercase().parse().expect("Not a valid number");
