@@ -28,7 +28,7 @@ fn main() {
 
 
         let a:f32= p*(1.0+(r/100.0)).powf(t);
-        let ci= a-p;
+        let ci:f32= a-p;
 
 
         println!("The compound interest is {}",ci);

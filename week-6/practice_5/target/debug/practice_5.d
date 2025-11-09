@@ -1,0 +1,1 @@
+C:\Users\HP\Documents\school\ docs\COS\ 101\a.akinhanmiCOS101\week-6\practice_5\target\debug\practice_5.exe: C:\Users\HP\Documents\school\ docs\COS\ 101\a.akinhanmiCOS101\week-6\practice_5\src\main.rs
