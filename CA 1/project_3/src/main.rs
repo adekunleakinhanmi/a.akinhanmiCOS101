@@ -17,14 +17,10 @@ fn main() {
   
 
 
-    println!("Enter an item code or n to quit: ");
+    println!("Enter an item code: ");
     let mut input1 = String::new();
     io::stdin().read_line(&mut input1).expect("Not a valid string");
     let item_code:char = input1.trim().parse().expect("Not a valid number");
-
-    if item_code=='n' {
-        break;
-    }else{
 
     println!("Enter the Quantity: ");
     let mut input2= String::new();
@@ -68,7 +64,20 @@ fn main() {
             let amount= total-discount;
             println!("The total amount payable after discount is {} \n", amount);
         }
+        }else
+        {
+            println!("Invalid input, try again.");
         }
+
+        println!("If you want to stop enter 'N'");
+        let mut input3 = String::new();
+        io::stdin().read_line(&mut input3).expect("Not a valid string");
+        let stop:char= input3.trim().to_uppercase().parse().expect("Not a valid number");
+
+        if stop=='N'
+        {
+            break;
+        } 
     }
 }
-}
+
