@@ -2,7 +2,7 @@ fn main() {
     //Using Vec::new()
     let v : Vec<i64> = Vec::new();
 
-    //printing the sixe of the vector
+    //printing the size of the vector
     println!("\nThe length of Vec::new is {}",v.len());
 
     //Using macro
