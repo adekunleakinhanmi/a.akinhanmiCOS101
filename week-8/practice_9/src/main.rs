@@ -4,7 +4,7 @@ fn main() {
 }
 
 //pass the tuple as a parameter
-fn tuple(x:(i32,bool,f64)){
+fn tuple(b:(i32,bool,f64)){
     println!("Inside print method");
-    println!("{:?}",x);
+    println!("{:?}",b);
 }
